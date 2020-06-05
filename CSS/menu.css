@@ -1,4 +1,8 @@
-
+@media screen and (max-width: 600px){
+    nav ul, .menu{
+        flex-direction: column !important;
+    }
+}
 
 nav ul, .menu{
     list-style: none;

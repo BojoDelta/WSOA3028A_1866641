@@ -177,6 +177,16 @@ section{
     
 }
 
+@media screen and (max-width:600px){
+    .DisplayGal{
+        flex-direction: column !important;
+    }
+    .GalImage{
+        width: 75% !important;
+    }
+}
+
+
 .DisplayGal{
     flex-direction: row;
     display: flex;

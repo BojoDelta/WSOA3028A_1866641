@@ -68,11 +68,11 @@ p {
     width: 50%;
 }
 
-section:nth-child(odd){
+section:nth-child(odd), .BlogPreview:nth-child(odd){
     background-color: #a755fd;
 }
 
-section:nth-child(even){
+section:nth-child(even), .BlogPreview:nth-child(even){
     background-color: #6080f2;
 }
 
@@ -82,7 +82,7 @@ section{
 
 .BlogPreview, .ContactDetails, .AboutData{
     color: black;
-    background-color: #a755fd;
+    /*background-color: #a755fd;*/
     display: flex;
     flex-direction: column;
     margin: 1rem;
@@ -113,12 +113,14 @@ section{
     background-color: black;
     border-radius: 1rem;
     font-size: 1.2rem;
-    font-family: Raleway;
+    font-family: Raleway;    
+    margin-bottom: .6rem;
 }
 
 .ReadButton:hover, .LinkButton:Hover{
     background-color: #6c4ba6;
     color: #e75cff;
+
 }
 
 .BlogDate{
@@ -195,8 +197,28 @@ section{
     margin: .5rem;
 }
 
+.WF{
+    width: 45%;
+}
+
 .Heading{
     text-align: center;
     padding-top: 1rem;
     font-size: 1.9rem;
+}
+
+.Headlines{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.Headline{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 0.9rem;
 }

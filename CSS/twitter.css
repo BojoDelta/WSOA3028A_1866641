@@ -1,0 +1,8 @@
+.Twitter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+}

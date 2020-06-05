@@ -3,7 +3,7 @@ const MenuItems = [
     { title: 'Blog', link: '../Blogs/blog.html' },
     { title: 'Gallery', link: '../Gallery/gallery.html' },
     { title: 'About', link: '../About/about.html' },
-    { title: 'Tutorials and Templates', link: '../TutsAndTemps/tutsandtemps.html' },
+    { title: 'Tutorials & Templates', link: '../TutsAndTemps/tutsandtemps.html' },
     { title: 'Contact', link: '../Contact/contact.html' }
 ]
 
@@ -20,6 +20,7 @@ const initMenu = () => {
         li.appendChild(i);
         ul.appendChild(li);
     }
+    ul.classList.add("menu")
     nav.appendChild(ul);
 }
 

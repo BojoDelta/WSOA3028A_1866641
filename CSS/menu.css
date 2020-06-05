@@ -1,0 +1,66 @@
+
+
+nav ul, .menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav li, .menu li{
+    width: 9rem;
+}
+
+nav > ul > li, .menu > li{
+    position: relative;
+    display: inline-block;
+    
+}
+
+a{
+    color: darkgrey;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #e75cff;
+    background-color: #6c4ba6;
+}
+
+.NavBar{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: .2rem solid #00dfff;
+}
+
+
+.BackButton{
+    text-decoration: none;
+    color: darkgrey;
+    background-color: black;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-family: Raleway;
+}
+
+.BackButton:hover{
+    background-color: #6c4ba6;
+    color: #e75cff;
+}
+
+.TopLogo{
+    width: 10rem;
+}
+
+
+.PageTitle{
+    color: darkgrey;
+    text-align: center;
+}

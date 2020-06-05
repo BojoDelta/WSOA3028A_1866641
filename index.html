@@ -7,24 +7,24 @@
     <title>
         Jax Cosplay
     </title>
-    
+
     <meta charset="UTF-8">
     <meta name="author" content="Brendan Jackson 1866641">
     <meta name="description" content="Profile website for South African Cosplayer Jax Cosplay">
 
-    
+
     <meta itemprop="name" content="Jax Cosplay">
     <meta itemprop="description" content="Profile website for South African Cosplayer Jax Cosplay">
     <meta itemprop="image" content="http://brendanjamesjackson.github.io/WSOA3028A_1866641/Images/Logo.jpg">
 
-    
+
     <meta property="og:url" content="https://brendanjamesjackson.github.io/WSOA3028A_1866641">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Jax Cosplay">
     <meta property="og:description" content="Profile website for South African Cosplayer Jax Cosplay">
     <meta property="og:image" content="http://brendanjamesjackson.github.io/WSOA3028A_1866641/Images/Logo.jpg">
 
-    
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Jax Cosplay">
     <meta name="twitter:description" content="Profile website for South African Cosplayer Jax Cosplay">
@@ -32,35 +32,41 @@
 
     <meta name="keywords" content="cosplay,jax,cosplayer,comic con,geek,blog,Johannesburg,South Afria">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
 
     <script src="JS/Nav.js" type="module" async></script>
+
 </head>
 
 <body>
 
-    <header>
+    <header class="NavBar">
 
-        <img src="Images/Logo.jpg" alt="Jax Cosplay Logo" height="100">
-        <ul>
+        <img class="TopLogo" src="Images/Logo.jpg" alt="Jax Cosplay Logo">
+        <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="Blogs/blog.html">Blog</a></li>
             <li><a href="Gallery/gallery.html">Gallery</a></li>
             <li><a href="About/about.html">About</a></li>
-            <li><a href="TutsAndTemps/tutsandtemps.html">Tutorials and Templates</a></li>
+            <li><a href="TutsAndTemps/tutsandtemps.html">Tutorials & Templates</a></li>
             <li><a href="Contact/contact.html">Contact</a></li>
         </ul>
-        
 
-        <button type="button" id="back">Back</button>
+
+        <button class="BackButton" type="button" id="back">Back</button>
+
     </header>
-    <section>
+    <div class="PageTitle">
         <h1>
-
-            Jax Cosplay
-
+            Jax Cosplay - Home
         </h1>
-        <img src="Images/WelcomeBanner.png" alt="This is a welcome banner" width="400" height="200">
-    </section>
+    </div>
+    <div class="Banner">
+        <img class="BannIm" src="Images/WelcomeBanner.png" alt="This is a welcome banner">
+    </div>
     <section>
         <h1>
 
@@ -76,9 +82,7 @@
             <li><strong>Online Learning during COVID-19</strong></li>
             <a href="Blogs/b7.html"><button>Read More</button></a>
         </ul>
-        <nav>
-            <a href="Blogs/blog.html"><button>View All Blogs</button></a>
-        </nav>
+        <a href="Blogs/blog.html"><button>View All Blogs</button></a>
 
     </section>
     <section>
@@ -95,24 +99,24 @@
             height="250">
         <img src="Images/CharImage4.jpg" alt="This is an image of Jax Cosplaying Elrond with Psycadillo and NiftySmithy"
             height="250">
-        <nav>
-            <a href="Gallery/gallery.html"><button>View Gallery</button></a>
-        </nav>
+        <a href="Gallery/gallery.html"><button>View Gallery</button></a>
 
 
     </section>
-    <ul>
-        <li><img src="Images/InstagramLogo.png" alt="The Instagram Logo" height="80"></li>
-        <a href="http://www.instagram.com/jax.cosplay"><button>INSTAGRAM</button></a>
-        <li><img src="Images/FacebookLogo.png" alt="The Facebook Logo" height="80"></li>
-        <a href="https://www.facebook.com/JaxCosplayDesigns/"><button>FACEBOOK</button></a>
-        <li><img src="Images/YouTubeLogo.png" alt="The YouTube Logo" height="80"></li>
-        <a href="https://www.youtube.com/channel/UCa2dZVdz4DewYWkmweuwQ1w"><button>YOUTUBE</button></a>
-        <li><img src="Images/TwitterLogo.png" alt="The Twitter Logo" height="80"></li>
-        <a href="https://twitter.com/Brendan_Jax_Cos"><button>TWITTER</button></a>
-    </ul>
+    <section class="ContactDetails">
+        <ul class="ContactLinks">
+            <li><img src="Images/InstagramLogo.png" alt="The Instagram Logo" height="80"></li>
+            <a href="http://www.instagram.com/jax.cosplay"><button class="LinkButton">INSTAGRAM</button></a>
+            <li><img src="Images/FacebookLogo.png" alt="The Facebook Logo" height="80"></li>
+            <a href="https://www.facebook.com/JaxCosplayDesigns/"><button class="LinkButton">FACEBOOK</button></a>
+            <li><img src="Images/YouTubeLogo.png" alt="The YouTube Logo" height="80"></li>
+            <a href="https://www.youtube.com/channel/UCa2dZVdz4DewYWkmweuwQ1w"><button class="LinkButton">YOUTUBE</button></a>
+            <li><img src="Images/TwitterLogo.png" alt="The Twitter Logo" height="80"></li>
+            <a href="https://twitter.com/Brendan_Jax_Cos"><button class="LinkButton">TWITTER</button></a>
+        </ul>
+    </section>
     <footer>
-        <img src="Images/Footer Image.jpg" alt="Alternate Jax Cosplay Logo" width="800" height="200">
+        <img class="FootImage" src="Images/Footer Image.jpg" alt="Alternate Jax Cosplay Logo">
     </footer>
 
 

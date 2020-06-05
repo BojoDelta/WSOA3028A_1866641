@@ -1,51 +1,69 @@
 <html>
-    <head>
-        <title>
-            Jax Cosplay Blog Page
-        </title>
-        <meta charset="UTF-8">
-        <meta name="description" content="This is the first blog of Jax Cosplay. Discussing the emmergence of E-Commerce">
-        <meta name="author" content="Brendan Jackson 1866641">
-    
-        <script src="../JS/Nav.js" type="module" async></script>
-    </head>
 
-    <body>
-        <header>
-    
-            <img src="../Images/Logo.jpg" alt="This is an image of Jax's logo" height="100">
-    
-            <nav></nav>
-    
-            <button id="back">Back</button>
+<head>
+    <title>
+        Jax Cosplay Blog Page
+    </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the first blog of Jax Cosplay. Discussing the emmergence of E-Commerce">
+    <meta name="author" content="Brendan Jackson 1866641">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <script src="../JS/Nav.js" type="module" async></script>
+</head>
+
+<body>
+    <header class="NavBar">
+
+        <img class="TopLogo" src="../Images/Logo.jpg" alt="This is an image of Jax's logo">
+
+        <nav></nav>
+
+        <button class="BackButton" id="back">Back</button>
+    </header>
+    <article>
+        <header class="PageTitle">
+            <h1>Semantic Markup and it's Uses</h1>
+            <h3><cite>Author: Brendan Jackson</cite></h3>
         </header>
-        <article>
-            <header>
-                <h1>Semantic Markup and it's Uses</h1>
-                <h3><cite>Author: Brendan Jackson</cite></h3>
-            </header>
-            <p>Gone are the days of web pages just presenting information, but rather web pages now have meaning to them.
+        <section>
+            <p>Gone are the days of web pages just presenting information, but rather web pages now have meaning to
+                them.
                 What is meant by this, well semantic markup is what I mean. In days gone by HTML and the tags used by it
-                were used in order to present the information of the website to the user of the site. As the word semantic
-                suggests, these tags now posses a dual function: to present the information as well as give meaning as to
+                were used in order to present the information of the website to the user of the site. As the word
+                semantic
+                suggests, these tags now posses a dual function: to present the information as well as give meaning as
+                to
                 the type of information that is being presented.</p>
+        </section>
+        <section>
             <p>Whilst semantic markup and it’s effects is not often seen by the user, one of the greatest advantages of
                 semantic markup is making it easier for a webpage to be understood by the browser that is displaying the
-                page, the developers working on / maintaining the page and for the bots of the internet that crawl through
+                page, the developers working on / maintaining the page and for the bots of the internet that crawl
+                through
                 webpages attempting to understand what type of content is presented on various pages. These tags also
                 indicate the importance of the data on the webpage.</p>
+        </section>
+        <section>
             <p>One of the other advantages of using semantic markup is that it makes it easier to style the website when
                 using JavaScript or CSS. It also makes it easier for a webpage to be displayed on various different
-                platforms, as without semantic markup the purpose and meaning information on the page may be lost when the
-                page is used on an uncommon platform, however with the use of semantics the platform will do it’s best to
+                platforms, as without semantic markup the purpose and meaning information on the page may be lost when
+                the
+                page is used on an uncommon platform, however with the use of semantics the platform will do it’s best
+                to
                 better understand what is being presented.</p>
-            <footer>
-                <time datetime="2020-02-28">Date:28/02/2020</time>
-            </footer>
-        </article>
-    
-        <footer>
-            <img src="../Images/Footer Image.jpg" alt="Alternate Jax Cosplay Logo" width="800" height="200">
+        </section>
+        <footer class="BlogDate">
+            <time datetime="2020-02-28">Date:28/02/2020</time>
         </footer>
-    </body>
+    </article>
+
+    <footer>
+        <img class="FootImage" src="../Images/Footer Image.jpg" alt="Alternate Jax Cosplay Logo">
+    </footer>
+</body>
+
 </html>

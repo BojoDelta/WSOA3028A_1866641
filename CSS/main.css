@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+html, 
+body {
+padding: 0;
+margin: 0;
+font-family: Raleway;
+background-color: black;
+color: black
+}
+
+.Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.FootImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+p {
+    font-size: 15pt;
+    line-height: 21pt;
+    text-align: justify;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+
+.Banner{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.BannIm{
+    width: 50%;
+}
+
+section:nth-child(odd){
+    background-color: #a755fd;
+}
+
+section:nth-child(even){
+    background-color: #6080f2;
+}
+
+section{
+    margin: 1rem;
+}
+
+.BlogPreview, .ContactDetails{
+    color: black;
+    background-color: #a755fd;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.BlogPreview p{
+    margin-bottom: .8rem;
+    padding: 0;
+}
+
+.ContactDetails p{
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    padding: 0;
+}
+
+.ReadButton, .LinkButton{
+    text-decoration: none;
+    color: darkgrey;
+    background-color: black;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-family: Raleway;
+}
+
+.ReadButton:hover, .LinkButton:Hover{
+    background-color: #6c4ba6;
+    color: #e75cff;
+}
+
+.BlogDate{
+    color: darkgrey;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.ContactLinks{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ContactLinks li, .ContactLinks a{
+    position: relative;
+    margin: .5rem;
+}

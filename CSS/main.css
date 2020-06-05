@@ -145,6 +145,7 @@ section{
 
 .SectionHead{
     margin: 1rem;
+    text-align: center;
 }
 
 
@@ -221,4 +222,28 @@ section{
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 0.9rem;
+}
+
+.VidDisp{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0rem;
+}
+
+.responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    
+}
+.responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    margin-bottom: 1rem;
 }

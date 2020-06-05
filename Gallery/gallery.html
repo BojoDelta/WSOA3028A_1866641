@@ -7,6 +7,9 @@
     <meta charset="UTF-8">
     <meta name="description" content="This is the Gallery of Jax Cosplay.">
     <meta name="author" content="Brendan Jackson 1866641">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/menu.css">
     <script src="../JS/Nav.js" type="module" async></script>
@@ -14,55 +17,62 @@
 </head>
 
 <body>
-    <header>
+    <header class="NavBar">
 
-        <img src="../Images/Logo.jpg" alt="This is an image of Jax Cosplaying Elrond, bow pointed at camera" height="100">
+        <img class="TopLogo" src="../Images/Logo.jpg"
+            alt="This is an image of Jax Cosplaying Elrond, bow pointed at camera">
 
         <nav></nav>
 
-        <button id="back">Back</button>
+        <button class="BackButton" id="back">Back</button>
 
         <nav></nav>
 
     </header>
 
-    <section>
+    <div class="PageTitle">
         <h1>
-
-            Slideshow
-
+            Jax Cosplay - Gallery
         </h1>
-        <button id="next">Next</button>
-        <button id="prev">Previous</button>
-        <img src="../Images/CharImage1.jpg" 
-            height="300" id="Slideshow">
+    </div>
+
+    <section class="Display">
+        <h2 class="SectionHead">
+            <button class="ReadButton" id="prev">Previous</button>
+            Slideshow
+            <button class="ReadButton" id="next">Next</button>
+        </h2>
+
+        <img src="../Images/CharImage1.jpg" id="Slideshow">
     </section>
 
     <section>
-        <h1>
+        <h2 class="Heading">
+            Gallery
+        </h2>
+        <div class="DisplayGal">
+            <img class="GalImage" src="../Images/CharImage1.jpg"
+                alt="This is an image of Jax Cosplaying Elrond, bow pointed at camera">
+            <img class="GalImage" src="../Images/CharImage2.jpg" alt="This is an image of Jax Cosplaying a Mando">
+            <img class="GalImage" src="../Images/CharImage3.jpg"
+                alt="This is an image of Jax Cosplaying Elrond, bow pointed at camera">
+            <img class="GalImage" src="../Images/CharImage4.jpg"
+                alt="This is an image of Jax Cosplaying Elrond with Psycadillo and NiftySmithy">
 
-            Gallery Highlights
-
-        </h1>
-
-        <img src="../Images/CharImage1.jpg" alt="This is an image of Jax Cosplaying Elrond, bow pointed at camera"
-            height="300">
-        <img src="../Images/CharImage2.jpg" alt="This is an image of Jax Cosplaying a Mando" height="300">
-        <img src="../Images/CharImage3.jpg" alt="This is an image of Jax Cosplaying Elrond, bow pointed at camera"
-            height="300">
-        <img src="../Images/CharImage4.jpg"
-            alt="This is an image of Jax Cosplaying Elrond with Psycadillo and NiftySmithy" height="300">
-
-        <img src="../Images/CharImage5.jpg" alt="This is an image of Jax Cosplaying a Tusken Raider" height="300">
-        <img src="../Images/CharImage6.jpg" alt="This is an image of Jax Cosplaying Aragorn" height="300">
-        <img src="../Images/CharImage7.jpg" alt="This is an image of Jax Cosplaying a Stormtrooper" height="300">
-        <img src="../Images/CharImage8.jpg" alt="This is an image of Jax Cosplaying a Tusken Raider" height="300">
-
+            <img class="GalImage" src="../Images/CharImage5.jpg"
+                alt="This is an image of Jax Cosplaying a Tusken Raider">
+            <img class="GalImage" src="../Images/CharImage6.jpg" alt="This is an image of Jax Cosplaying Aragorn">
+            <img class="GalImage" src="../Images/CharImage7.jpg"
+                alt="This is an image of Jax Cosplaying a Stormtrooper">
+            <img class="GalImage" src="../Images/CharImage8.jpg"
+                alt="This is an image of Jax Cosplaying a Tusken Raider">
+        </div>
 
     </section>
 
     <footer>
-        <img src="../Images/Footer Image.jpg" alt="Alternate Jax Cosplay Logo" width="800" height="200">
+        <img class="FootImage" src="../Images/Footer Image.jpg" alt="Alternate Jax Cosplay Logo" width="800"
+            height="200">
     </footer>
 </body>
 

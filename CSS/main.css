@@ -5,8 +5,24 @@ body {
 padding: 0;
 margin: 0;
 font-family: Raleway;
-background-color: black;
-color: black
+/*background-color: rgba(0, 0, 0, .3);*/
+
+color: black;
+
+;
+}
+
+html{
+    background-image: url("../Images/Background2.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: rgba(0, 0, 0, .5);
+background-blend-mode: multiply;
 }
 
 .Image{
@@ -14,6 +30,10 @@ color: black
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+}
+
+.AboutImage{
+    width: 40%;
 }
 
 .FootImage{
@@ -37,7 +57,7 @@ p {
 }
 
 .Banner{
-    background-color: black;
+    /*background-color: black;*/
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -60,7 +80,7 @@ section{
     margin: 1rem;
 }
 
-.BlogPreview, .ContactDetails{
+.BlogPreview, .ContactDetails, .AboutData{
     color: black;
     background-color: #a755fd;
     display: flex;
@@ -70,9 +90,15 @@ section{
     text-align: center;
 }
 
+
 .BlogPreview p{
     margin-bottom: .8rem;
     padding: 0;
+}
+
+.AboutData p{
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 .ContactDetails p{
@@ -113,4 +139,64 @@ section{
 .ContactLinks li, .ContactLinks a{
     position: relative;
     margin: .5rem;
+}
+
+.SectionHead{
+    margin: 1rem;
+}
+
+
+.Wireframes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Wireframes li{
+    position: relative;
+    display: inline-block;
+}
+
+
+.WFImage{
+    width: 20%;
+}
+
+.Display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.DisplayGal{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Display img{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.GalImage{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    width: 30%;
+    margin: .5rem;
+}
+
+.Heading{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.9rem;
 }

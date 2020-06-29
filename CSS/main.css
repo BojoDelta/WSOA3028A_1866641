@@ -177,6 +177,11 @@ section{
     
 }
 
+.GVideo{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width:600px){
     .DisplayGal{
         flex-direction: column !important;
@@ -184,7 +189,20 @@ section{
     .GalImage{
         width: 75% !important;
     }
+    .GVideo{
+        width: 75%;
+    }
 }
+
+
+.GalVids{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 
 
 .DisplayGal{

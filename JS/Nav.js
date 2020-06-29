@@ -4,7 +4,8 @@ const MenuItems = [
     { title: 'Gallery', link: '../Gallery/gallery.html' },
     { title: 'About', link: '../About/about.html' },
     { title: 'Tutorials & Templates', link: '../TutsAndTemps/tutsandtemps.html' },
-    { title: 'Contact', link: '../Contact/contact.html' }
+    { title: 'Contact', link: '../Contact/contact.html' },
+    { title: 'Jokes While Crafting', link: '../Cosplay/cosplay.html' }
 ]
 
 const initMenu = () => {
